@@ -1,0 +1,9 @@
+Package: matrixio-zwave-utils
+Architecture: armhf
+Depends: libc6, libgcc1, libgflags2v5, libstdc++6, wiringpi, libgflags-dev, libmatrixio-creator-hal, matrixio-creator-init
+Description: ZWAVE Utils.
+Maintainer: MATRIX Labs <info@matrix.one>
+Section: embedded
+Priority: optional
+Homepage: https://github.com/matrix-io/matrixio-kernel-modules
+Version: 1.0.0

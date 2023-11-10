@@ -1,0 +1,2 @@
+#!/bin/bash -e
+echo "MATRIXIO-Zwave-Utils has been installed succesfully"

@@ -1,0 +1,10 @@
+61c959364c8134507a85e3ea92ba9082  usr/bin/hex2bin
+dbb99c7e6c352439afacba1d36c76e9f  usr/bin/zwave_conf
+d92043ec9909c59276385dac5ad282a7  usr/bin/zwave_nvr
+11d5b9001343b393a7bfa812a4bae553  usr/bin/zwave_prog
+b3d0b9fc79ba00a3d788696a4f4d3d10  usr/include/libcintelhex/cintelhex.h
+a6bc95052590f49299fbb1b91b51122b  usr/lib/libcintelhex.a
+ddedd11b595d460de7809b7bc6324ff1  usr/share/doc/matrixio-zwave-utils/changelog.gz
+4aa5c8731618e51458f6755b07001fd8  usr/share/doc/matrixio-zwave-utils/copyright
+c7aec691c4165c5e617197901f3f8d3c  usr/share/matrixlabs/matrixio-devices/zwave/blob/zwave.bit
+ce1633915a683947d5f0d5b341a49841  usr/share/matrixlabs/matrixio-devices/zwave/zwave_fpga.bash
