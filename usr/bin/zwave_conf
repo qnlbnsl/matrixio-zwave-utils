@@ -1,0 +1,23 @@
+#!/bin/bash
+
+rm ID.conf >> /dev/null 2> /dev/null
+zwave_nvr -i | grep -v INFO > ID.conf
+source ID.conf
+
+if [ "${Zone_ID}" == "D1B78" ];
+then
+   VERSION=e
+   echo "*** ${Zone_ID} MATRIX Creator EU has been detected "
+elif [ "${Zone_ID}" == "DE88C" ];
+then
+   VERSION=u
+   echo "*** ${Zone_ID} MATRIX Creator US has been detected "
+else
+   echo "*** ${Zone_ID} does not MATCH -- FAIL "
+   exit 1
+fi
+
+zwave_nvr -w 04 01 0020 0040  
+zwave_prog -${VERSION}
+
+echo "*** Zwave Init Set Up Complete. Reboot your device"
